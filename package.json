@@ -1,0 +1,20 @@
+{
+  "name": "officer-reconciliation",
+  "version": "1.0.0",
+  "author": "David Ricehy",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc -p .",
+    "start": "node build/index.js"
+  },
+  "dependencies": {
+    "@slack/web-api": "^6.4.0",
+    "axios": "^0.21.1",
+    "dotenv": "^10.0.0",
+    "googleapis": "^85.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^14.14.25",
+    "typescript": "^4.4.3"
+  }
+}
